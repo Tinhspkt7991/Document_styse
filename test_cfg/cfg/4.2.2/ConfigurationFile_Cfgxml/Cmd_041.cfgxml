@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+None of the tag from this XML should be renamed or deleted.
+-->
+<XML>
+  <!-- Supported Command Line options  -->
+  <OPTION>
+    <!-- Only ON or OFF should be provided. -->
+    <HELP>OFF</HELP>
+    
+    <!-- Only ON or OFF should be provided. -->
+    <LOG>OFF</LOG>
+    
+    <!-- Only ON or OFF should be provided. -->
+    <DRYRUN>OFF</DRYRUN>
+    
+    <!-- Only ON or OFF should be provided. -->
+    <OUTPUT>ON</OUTPUT>
+    
+    <!-- Name of output directory -->
+    <OUTPUT-PATH>../../</OUTPUT-PATH>
+  </OPTION>
+
+  <!-- To provide input files. If multiple input files need to be provided then 
+       each file should be separated with ",". -->
+  <INPUT-FILE>.\Cmd_041.arxml</INPUT-FILE>
+</XML>

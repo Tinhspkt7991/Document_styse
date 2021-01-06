@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+None of the tag from this XML should be renamed or deleted.
+-->
+<XML>
+<!-- Supported Command Line options  -->
+  <OPTION>
+    <!-- Only ON or OFF should be provided. -->
+    <HELP>OFF</HELP>
+    
+    <!-- Only ON or OFF should be provided. -->
+    <LOG>ON</LOG>
+    
+    <!-- Only ON or OFF should be provided. -->
+    <DRYRUN>OFF</DRYRUN>
+    
+    <!-- Only ON or OFF should be provided. -->
+    <OUTPUT>ON</OUTPUT>
+    
+    <!-- Name of output directory -->
+    <OUTPUT-PATH>Cmd_27</OUTPUT-PATH>
+  </OPTION>
+
+  <!-- To provide input files. If multiple input files need to be provided then 
+       each file should be separated with ",". -->
+  <INPUT-FILE>../../DescriptionFile/Cmd_002.arxml,./../../../../../../../../../external/RCar/common_platform/generic/stubs/4.2.2/Dem/xml/Dem_Port.arxml,./../../../../../../../../../external/RCar/M3N/common_family/generator/Test_Application_M3N_aes.trxml, ./../../../../../../../../../external/RCar/M3N/modules/port/generator/R422_Port_M3N_BSWMDT.arxml</INPUT-FILE>
+</XML>
